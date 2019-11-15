@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <link rel="stylesheet" href="./qiyezhan.css">
+                <link rel="stylesheet" href="./index01.css">
+                <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+                <script src="https://cdn.bootcss.com/axios/0.19.0/axios.min.js"></script>
+                <script src="./index01.js"></script>
+                <link rel="icon" href="./action.png" type="imag/x-icon">
+                <title>首页</title>
+            </head>
+            
+            <body>
+                <div class="header" >
+                    <div class="logo">
+                        <h2>
+                            <img src="./action.png"> S$M
+                        </h2>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li><a href="about.html">关于我们</a></li>
+                            <li><a href="new.html">新闻</a></li>
+                            <li><a href="index.html">首页</a></li>
+                            <!-- <li><a href="danmu.html">弹幕墙</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="banner">
+                    <ul class="imglist">
+                        <img src="http://img5.imgtn.bdimg.com/it/u=3659035061,3019610722&fm=15&gp=0.jpg">
+                        <img src="http://img4.imgtn.bdimg.com/it/u=3531148269,4000008935&fm=26&gp=0.jpg">
+                        <img src="http://img5.imgtn.bdimg.com/it/u=2953634491,523738342&fm=26&gp=0.jpg">
+                    </ul>
+                    <div class="button">
+                        <span class="on" index="0"></span>
+                        <span index="1"></span>
+                        <span index="2"></span>
+                    </div>
+                    <a href="#" class="banner_left arrow">&lt;</a>
+                    <a href="#" class="banner_right arrow">&gt;</a>
+                </div>
+                <div class="content">
+                    <h2>服务范围</h2>
+                    <div class="service">
+                        <div class="ser"><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1918713775,1635073381&fm=26&gp=0.jpg">
+                            <p>最新上映</p>
+                        </div>
+                        <div class="ser"><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=672523539,2280300026&fm=26&gp=0.jpg">
+                            <p>正在热映</p>
+                        </div>
+                        <div class="ser"><img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2530652845,4051391196&fm=26&gp=0.jpg">
+                            <p>即将上映</p>
+                        </div>
+                        <div class="ser"><img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1585008470,2218293218&fm=15&gp=0.jpg">
+                            <p>经典影片</p>
+                        </div>
+                        <div class="clean"></div>
+                    </div>
+                    <div class="hot">
+                        <h2>热门推荐</h2>
+                        <div class="lef">
+                            <img src="https://p0.meituan.net/movie/ecca4f0b95340b2c57006a1bace4c3f91386100.jpg@464w_644h_1e_1c">
+                            <div class="ht">
+                                <h3>天气之子</h3>
+                                <p>在高一的夏天，少年帆高（醍醐虎汰朗 配音）离家出走，一个人来到东京。帆高好不容易找到一份工作，为一本古怪的“神秘学杂志”写稿，生活孤单贫苦。连日的滂沱大雨，像是来映衬他的失落。在纷纭杂沓的大都会一角，帆高遇上了一个可爱少女阳菜（森七菜 配音）。阳菜和弟弟相依为命，个性坚强、开朗，但她心中隐藏着一个重大秘密──每当她说：“现在开始天晴了！”雨便渐渐停下来，美丽的阳光洒落街上。原来，她拥有一股不可思议的能量，一股能让天空放晴的异力……</p>
+                                <div class="hb">
+                                    <hr>
+                                    <p>
+                                        导演新海诚 （Makoto Shinkai），原名新津诚 （Makoto Niitsu），1973年2月9日出生于日本长野县南佐久郡小海町，日本动画导演、编剧、作家，毕业于日本长野县野泽北高等学校、日本中央大学文学部日本文学系。 2002年，执导了科幻动画短片《 星之声》。2016年，自编自导了动画电影《 你的名字。》，凭借该片获得了 第40届日本电影学院奖最佳编剧奖及第26届日本电影评论家大奖最佳导演奖。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="clean"></div>
+                        </div>
+                        <div class="rig">
+                            <img src="https://p0.meituan.net/moviemachine/ff399baffe786445b96e4e3d24fe1eeb675719.jpg@464w_644h_1e_1c">
+                            <div class="ht">
+                                <h3>狂热行动</h3>
+                                <p>“航海王系列”第14部剧场版，也是《航海王》动画二十周年纪念之作。 以超新星为代表的众多航海家纷纷现身世界最大的航海家庆典——航海世博会。草帽航海团也收到了主办者费斯塔的邀请函，搭乘万里阳光号前往。原以为航海家们的狂热世博会只是为争夺“航海王罗杰留下的宝藏”，就在神秘宝藏争夺战如火如荼之际，阻挡在路飞等人面前的可怕威胁道格拉斯·巴雷特突然现身！暗藏阴谋的敌我混战一触即发……</p>
+                                <div class="hb">
+                                    <hr>
+                                    <p>
+                                        由大塚隆史执导
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="clean"></div>
+                        </div>
+                        <div class="lef">
+                            <img src="https://p1.meituan.net/moviemachine/c68e3fff79463952b33cbc1e1b45442b1772992.jpg@160w_220h_1e_1c">
+                            <div class="ht">
+                                <h3>沉睡魔咒</h3>
+                                    <p>玛琳菲森（安吉丽娜·朱莉 饰）和她的教女奥罗拉（艾丽·范宁 饰）因为即将举行的婚礼、意想不到的盟友，和新的黑暗势力被拉向不同的方向，同时也开始质疑起联结她们的复杂家庭关系。
+                                    </p>
+                                <div class="hb">
+                                    <hr>
+                                    <p>
+                                        由导演乔阿吉姆·罗恩尼执导，他是第一名挪威导演、 编剧，1972年5月30日出生于挪威。主要作品有《玛士撒拉》、《加勒比海盗5：死无对证》、《马可波罗 第一季》等。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="clean"></div>
+                        </div>
+                    </div>
+                    <ul class="newslist">
+                        <h2>新闻动态</h2>
+                        <div class="clean"></div>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div class="fnav">
+                        <div class="footer_top">
+                            <div class="ft">
+                                <img src="http://img0.imgtn.bdimg.com/it/u=2311455905,1713130687&fm=26&gp=0.jpg">
+                                <p>S&M</p>
+                            </div>
+                            <div class="ft">
+                                <img src="http://img4.imgtn.bdimg.com/it/u=4024205519,4174856037&fm=26&gp=0.jpg">
+                                <p>云朵@sina.com</p>
+                            </div>
+                            <div class="ft">
+                                <img src="http://img0.imgtn.bdimg.com/it/u=2547527384,1237705204&fm=26&gp=0.jpg">
+                                <p>0591-1314-520</p>
+                            </div>
+                            <div class="ft">
+                                <img class="er" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3494696620,2892864237&fm=26&gp=0.jpg">
+                                <p>扫一扫</p>
+                            </div>
+                        </div>
+                        <div class="footer_bottom">
+                            <hr>
+                            <p>版权所有&copy;S&M</p>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                </script>
+            </body>
+            
+            </html>
+            
