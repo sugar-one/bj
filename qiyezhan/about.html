@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>关于我们</title>
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./qiyezhan.css">
+    <link rel="icon" href="./images/zh1.jpg" type="zh1" />
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/qiyezhan.js"></script>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=EkiaFDMX3wdDQ1D2flU8Q9tQoG3Dtd9s 
+
+"></script>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js 
+
+"></script>
+</head>
+
+
+<body>
+    <div class="header" >
+        <div class="logo">
+            <h2>
+                <img src="./action.png"> S$M
+            </h2>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="new.html">新闻</a></li>
+                <li><a href="qiyezhan.html">首页</a></li>
+                <!-- <li><a href="danmu.html">弹幕墙</a></li> -->
+            </ul>
+        </div>
+    </div> 
+    <div class="content">
+        <div class="content_left">
+            <div id="container"></div>
+        </div>
+        <div class="content_right">
+            <p>卡梅隆·莫纳汉（Cameron Monaghan），1993年8月16日出生于美国加州圣塔莫尼卡，美国演员。
+                2002年出道，在电影处女作《The Wishing Stone》中饰演Alex 。2003年在电视电影《欢乐音乐妙无穷》中饰演了Winthrop Paroo并凭借此剧提名青年艺人大奖电视电影、迷你剧或特别剧最佳年轻男配角。2004年在美剧《马尔柯姆的一家》中客串了Chad 。2007年第一次主演了电影，在《骷髅岛的秘密》饰演了三位主角之一的Bob Andrews。2011年开始在美剧《无耻之徒》中饰演常驻角色Ian Gallagher。2014年在电影《赐予者》中饰演乔纳斯的好友Asher</p>
+            <img src="06.jpg">
+            <span>闽江学院</span>
+            <br>
+            <img src="./images/zhh2.jpg">
+            <span>123456789@qq.com</span>
+            <br>
+            <img src="./images/zhh3.jpg">
+            <span>123-456-7889</span>
+        </div>
+    </div>
+    <div class="clean"></div>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="fnav">
+            <div class="footer_top">
+                <div class="ft">
+                    <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2306233490,2492297969&fm=26&gp=0.jpg">
+                    <p>S&M</p>
+                </div>
+                <div class="ft">
+                    <img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2987054415,3643623644&fm=26&gp=0.jpg">
+                    <p>云朵@sina.com</p>
+                </div>
+                <div class="ft">
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2324511675,3715021047&fm=26&gp=0.jpg">
+                    <p>0591-1314-520</p>
+                </div>
+                <div class="ft">
+                    <img class="er" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3494696620,2892864237&fm=26&gp=0.jpg">
+                    <p>扫一扫</p>
+                </div>
+            </div>
+        <div class="footer_bottom">
+            <hr>
+            <h4>版权所有S&M</h4>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    var map = new BMap.Map("container");
+    // 创建地图实例
+    var point = new BMap.Point(119.176895, 26.072713);
+    // 创建点坐标
+    map.centerAndZoom(point, 15);
+    // 初始化地图，设置中心点坐标和地图级别
+</script>
+
+</html>
